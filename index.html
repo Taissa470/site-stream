@@ -1,19 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+   <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=<<device-width>>, initial-scale=1.0">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
     <title>Document</title>
 </head>
 <body>
-    <form class="stream"></form>
-    <h3>CADASTRO</h3>
-    <input type="text" placeholder="login" id="login">
-    <input type="password" placeholder="senha" id="senha">
-    <input type="submit" onclick="logar" (); return false>
-</from>
-<form class="stream"></form>
-<input type="phone" placeholder="phone" id=phone>
-
+   <div class="cadastro">
+  <form>
+   <h3>CADASTRO</h3>
+   <input type="text" placeholder="login" id="login">
+   <input type="password" placeholder="senha" id="senha">
+    <input type="telephone" placeholder="telefone" id="telefone">
+    <input type="email" placeholder="email" id="email">
+    <input type="submit" onclick="logar">
+   </form>
+   </div>
+   <script>
+      Functionlogar(); {
+        varlogin=document.getElementById('login'),VALUE;
+        varsenha=document.getElementById('senha'),VALUE;
+        vartelefone=document.gentElementBYId('telefone'),VALUE;
+        varemail=document.getElementBYID('email'),VALUE;
+        if(login=="taissa" &&  senha=="t15012009" && telefone=="4196985930" && email=="taissa15@gmail.com"){
+        alert("sucesso");
+      location.href="home.html";
+      }else {
+         alert("usuario ou senha incorretos");
+      }
+   }
+   </script>
 </body>
 </html>
